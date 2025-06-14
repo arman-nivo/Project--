@@ -1,0 +1,150 @@
+/* Base Reset & Fonts */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #0b0b0b;
+  color: #ffffff;
+}
+
+/* Footer Wrapper */
+footer {
+  padding: 5rem 1.5rem;
+  background-color: #0b0b0b;
+}
+
+.contactsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+/* 
+.connectme{
+
+} */
+
+.connect{
+    display: flex;
+    gap: 25px;
+    text-align: left;
+    margin-top: 90px;
+    font-size: 11px;
+    color: white;
+}
+
+.linksitw{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 80px;
+    color: white;
+}
+/* Contact Heading */
+footer h2 {
+  font-size: 2rem;
+  color: #ff9ce9;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/* Email Subscription */
+.footer-subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ff9ce9;
+  border-radius: 6px;
+  max-width: 400px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.footer-subscribe input[type="email"] {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 0.75rem 1rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.footer-subscribe input::placeholder {
+  color: #fffbfb;
+}
+
+.footer-subscribe button {
+  background-color: #ff9ce9;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Contact Info Grid */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer-grid p {
+  margin: 0.25rem 0;
+}
+
+.footer-grid-title {
+  color: #ff9ce9;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* Footer Links */
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-links h4 {
+  text-transform: uppercase;
+  color: #ff9ce9;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.4rem;
+  color: #f8f8f8;
+}
+
+/* Divider */
+.footer-divider {
+  border-top: 1px solid #ff9ce9;
+  margin: 2.5rem 0;
+}
+
+/* Bottom Footer */
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.75rem;
+  color: #ffffff;
+}
+
+@media (min-width: 640px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

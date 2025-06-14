@@ -1,0 +1,45 @@
+.it-solution-section {
+  background-color: #0d0d0d; /* Or your starry texture background */
+  /* background-image: url('/images/space-bg.jpg'); If available */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-box {
+  background-color: #1a1a1a;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  border: 2px dashed #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-custom {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  width: 45%;
+}
+
+.textfit{
+    color: gray;
+    padding: 0pc 25%;
+    word-spacing: 4px;
+    font-weight: 600;
+}
+
+.rightsidertext{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 32px;
+}
+
+.imagesize{
+    width: 96%;
+    height: 45rem;
+}

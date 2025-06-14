@@ -1,0 +1,103 @@
+.client-feedback-section {
+  background: #0a0a0a;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.feedback-header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sci-fi-decorator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.target {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ff80ff;
+  border-radius: 50%;
+}
+
+.waveform {
+  width: 150px;
+  height: 10px;
+  background-image: linear-gradient(to right, #ff80ff 20%, transparent 20%, transparent 40%, #ff80ff 40%, #ff80ff 60%, transparent 60%, transparent 80%, #ff80ff 80%);
+  background-size: 15px 10px;
+  background-repeat: repeat-x;
+}
+
+.feedback-subtext {
+  color: #ccc;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  font-size: 0.95rem;
+}
+
+.feedback-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.feedback-card {
+  border: 2px solid #ff80ff;
+  padding: 1.5rem;
+  position: relative;
+  background: transparent;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.feedback-card h5 {
+  color: #ff80ff;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.feedback-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.decorations {
+  display: flex;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.square {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #ff80ff;
+  display: inline-block;
+}
+
+.square.filled {
+  background-color: #ff80ff;
+}
+
+.pagination {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 4px;
+  background-color: #ff80ff44;
+}
+
+.dot.active {
+  background-color: #ff80ff;
+}
